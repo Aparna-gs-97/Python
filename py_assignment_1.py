@@ -14,8 +14,13 @@ for i in range(0,num):
 
 def runner_up(list):
     list.sort()
-    print("\nThe runnerup's score is : " , list[-2])
-
+    m=max(list)
+    count=0
+    for i in range(0,len(list)):
+        if list[i]==m:
+            count+=1
+            print("The runnerup's score is ",list[-(count+1)])
+   
 
 list=[]
 n=int(input("Enter the number of scores  : ")) 
