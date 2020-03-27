@@ -19,7 +19,7 @@ def runner_up(list):
     for i in range(0,len(list)):
         if list[i]==m:
             count+=1
-            print("The runnerup's score is ",list[-(count+1)])
+    print("The runnerup's score is ",list[-(count+1)])
    
 
 list=[]
