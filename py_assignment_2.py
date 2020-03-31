@@ -29,7 +29,7 @@ def solution(X,Y,D):
         current_pos=X+D*i
         i+=1
         count+=1
-    print("The minimum number of jumbs required by the frog : ",count)
+    print("The minimum number of jumps required by the frog : ",count)
 
 
 
