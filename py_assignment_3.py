@@ -70,9 +70,12 @@ def solution(A):
          m=min(l)                #finding the minimal difference
     except ValueError:
          print("Hey!! try to give more than one number")
-    except UnboundValueError:
+    try:
+         return m
+    except UnboundLocalError:
          print("Hey!! try to give more than one number")
-    return m
+         
+    
         
           
 A=[]
