@@ -68,13 +68,11 @@ def solution(A):
     l.sort()
     try:
          m=min(l)                #finding the minimal difference
-    except ValueError:
-         print("Hey!! try to give more than one number")
-    try:
-         return m
-    except UnboundLocalError:
-         print("Hey!! try to give more than one number")
-         
+         for i in l:
+            if type(i)==int and len(l)>1:
+                return m
+     except
+        
     
         
           
