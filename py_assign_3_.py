@@ -69,7 +69,7 @@ def solution(A):
     try:
          m=min(l)                #finding the minimal difference
          for i in l:
-             if type(i)==int and len(l)>1:
+             if type(i)==int and n>1:
                  return m
     except ValueError:
          print("Hey!! try to give more than one number")
