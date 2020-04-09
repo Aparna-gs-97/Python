@@ -72,7 +72,7 @@ def solution(A):
          print("Hey!! try to give more than one number")
     except UnboundValueError:
          print("Hey!! try to give more than one number")
-         return m
+    return m
         
           
 A=[]
